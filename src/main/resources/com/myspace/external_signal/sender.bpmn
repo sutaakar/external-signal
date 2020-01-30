@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:drools="http://www.jboss.org/drools" id="_Gm5ggUOZEeqgUIfG64BnJA" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+  <bpmn2:process id="external-signal.sender" drools:packageName="com.myspace.external_signal" drools:version="1.0" drools:adHoc="false" name="sender" isExecutable="true"/>
+  <bpmndi:BPMNDiagram id="_Gm6uoEOZEeqgUIfG64BnJA">
+    <bpmndi:BPMNPlane id="_Gm6uoUOZEeqgUIfG64BnJA" bpmnElement="external-signal.sender"/>
+  </bpmndi:BPMNDiagram>
+  <bpmn2:relationship id="_Gm6uokOZEeqgUIfG64BnJA" type="BPSimData">
+    <bpmn2:extensionElements>
+      <bpsim:BPSimData>
+        <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
+          <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
+        </bpsim:Scenario>
+      </bpsim:BPSimData>
+    </bpmn2:extensionElements>
+    <bpmn2:source>_Gm5ggUOZEeqgUIfG64BnJA</bpmn2:source>
+    <bpmn2:target>_Gm5ggUOZEeqgUIfG64BnJA</bpmn2:target>
+  </bpmn2:relationship>
+</bpmn2:definitions>
